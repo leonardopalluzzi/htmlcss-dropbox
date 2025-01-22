@@ -108,6 +108,17 @@
             min-height: 15rem;
         }
     }
+    #partner{
+        .col-2{
+            min-height: 30rem;
+        }
+        .pt-img{
+            min-width: 60%;
+        }
+        .pt-content{
+            min-width: 40%;
+        }
+    }
 }
 
 /* #endregion utility */
@@ -154,6 +165,7 @@
 
 /* #endregion jumbotron  */
 
+/* #region subscription  */
 #subscription{
     h2{
         padding: 2rem 0 2rem 0;
@@ -164,7 +176,7 @@
             margin-right: 1rem;
         }
     }
-    
+    margin-bottom: 5rem;
 }
 .sub-row{
     justify-content: space-between;
@@ -184,3 +196,16 @@
     border: 1px solid grey;
 }
 
+/* #endregion subscription  */
+
+/* #region partner  */
+.pt-content{
+    padding: 2rem;
+}
+#partner{
+    margin-bottom: 5rem;
+}
+
+/* #endregion partner  */
+
+/* #region cards  */
