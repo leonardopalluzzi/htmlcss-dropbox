@@ -225,7 +225,7 @@ h2{
 
 /* #region subscription  */
 #subscription{
-    border-top: 1px solid var(--db-jumbotron);
+    border-top: 1px solid var(--db-border);
     h2{
         padding: 2rem 0 2rem 0;
     }
