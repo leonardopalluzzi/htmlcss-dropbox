@@ -1,5 +1,80 @@
+/* #region common */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.big-section-size{
+    width: 80%;
+    margin: auto;
+}
+
+.small-section-size{
+    width: 60%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* #region col  */
+.col-container{
+    
+}
+
+/* #endregion common */
+
+
+/* #region utility */
+.debug{
+    *{
+        border: 1px dashed black;
+    }
+    #site-header{
+        background-color: yellow;
+    }
+    .jumbotron{
+        background-color: aqua;
+        min-height: 40rem;
+    }
+    .jt-container{
+        background-color: azure;
+        min-height: 40rem;
+    }
+}
+
+/* #endregion utility */
+
+/* #region header  */
+#site-header{
+    justify-content: space-between;
+    align-items: center;
+    a{
+        padding: 1rem 0.79rem;
+    }
+    a, img{
+        margin-right: 3rem;
+    }
+    button{
+    }
+    *{
+        height: 100%;
+    }
+}
+
+.menu-left, .menu-right{
+    padding: 1rem 0.79rem;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+/* #endregion header  */
+
+/* #region jumbotron  */
+.jt-container{
+
 }
