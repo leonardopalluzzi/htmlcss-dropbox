@@ -1,13 +1,13 @@
 /* #region common */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Work Sans", serif;
-  font-optical-sizing: auto;
+    font-optical-sizing: auto;
 }
 
-:root{
+:root {
     --db-cta: #0061fe;
     --db-hover-btn: #3b86ff;
     --db-jumbotron: #b4d0e6;
@@ -16,94 +16,106 @@
     --db-border: lightgrey;
 }
 
-.big-section-size{
+.big-section-size {
     width: 70%;
     margin: auto;
 }
 
-.small-section-size{
+.small-section-size {
     width: 50%;
     margin: auto;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--db-dark);
 }
 
-.btn-blue{
+.btn-blue {
     background-color: var(--db-cta);
     padding: 0.5rem 0.8rem;
     color: var(--db-light);
     border-style: none;
     transition-duration: 0.5s;
-    &:hover{
+
+    &:hover {
         background-color: var(--db-hover-btn);
     }
 }
 
-h1{
+h1 {
     font-size: 5rem;
 }
 
-h2{
+h2 {
     font-size: 2.5rem;
 }
 
 /* #region col  */
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -2rem;
 }
 
-[class^="col"]{
+[class^="col"] {
     padding: 2rem;
 }
 
-.col{
+.col {
     width: auto;
     flex-basis: auto;
 }
 
-.col-1{
+.col-1 {
     width: calc(100% / 12 * 1);
 }
-.col-2{
+
+.col-2 {
     width: calc(100% / 12 * 2);
 }
-.col-3{
+
+.col-3 {
     width: calc(100% / 12 * 3);
 }
-.col-4{
+
+.col-4 {
     width: calc(100% / 12 * 4);
 }
-.col-5{
+
+.col-5 {
     width: calc(100% / 12 * 5);
 }
-.col-6{
+
+.col-6 {
     width: calc(100% / 12 * 6);
 }
-.col-7{
+
+.col-7 {
     width: calc(100% / 12 * 7);
 }
-.col-8{
+
+.col-8 {
     width: calc(100% / 12 * 8);
 }
-.col-9{
+
+.col-9 {
     width: calc(100% / 12 * 9);
 }
-.col-10{
+
+.col-10 {
     width: calc(100% / 12 * 10);
 }
-.col-11{
+
+.col-11 {
     width: calc(100% / 12 * 11);
 }
-.col-12{
+
+.col-12 {
     width: calc(100% / 12 * 12);
 }
 
@@ -113,42 +125,54 @@ h2{
 
 
 /* #region utility */
-.debug{
-    *{
+.debug {
+    * {
         border: 1px dashed black;
     }
-    #site-header{
+
+    #site-header {
         background-color: yellow;
     }
-    .jumbotron{
+
+    .jumbotron {
         background-color: aqua;
         min-height: 40rem;
     }
-    .jt-container{
+
+    .jt-container {
         background-color: azure;
         min-height: 40rem;
-        h1{
+
+        h1 {
             min-height: 15rem;
         }
-        .jt-left, .jt-right{
+
+        .jt-left,
+        .jt-right {
             min-height: 20rem;
         }
     }
-    .sub-content{
+
+    .sub-content {
         min-height: 40rem;
     }
-    .bottom-sub-card{
-        .sub-content{
+
+    .bottom-sub-card {
+        .sub-content {
             min-height: 15rem;
         }
     }
-    #partner{
-        .pt-img, .pt-contet{
+
+    #partner {
+
+        .pt-img,
+        .pt-contet {
             min-height: 30rem;
         }
     }
-    .card{
-        img{
+
+    .card {
+        img {
             min-height: 10rem;
         }
     }
@@ -157,43 +181,50 @@ h2{
 /* #endregion utility */
 
 /* #region header  */
-#site-header{
+#site-header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 10;
     width: 100%;
     background-color: var(--db-light);
-    a{
+
+    a {
         padding: 1rem 0.8rem;
-        &:hover{
+
+        &:hover {
             border-bottom: 4px solid black;
             border-radius: 0.3rem;
         }
     }
-    a, img{
+
+    a,
+    img {
         margin-right: 3rem;
     }
 }
 
-.menu-left, .menu-right{
+.menu-left,
+.menu-right {
     padding: 1rem 0.79rem;
     line-height: 25px;
 }
 
-.logo{
+.logo {
     vertical-align: middle;
 }
 
 /* #endregion header  */
 
 /* #region jumbotron  */
-.jt-container{
+.jt-container {
     flex-direction: column;
     padding: 10rem 5rem 0 5rem;
-    .jt-right{
+
+    .jt-right {
         padding-left: 0;
-        img{
+
+        img {
             width: 100%;
             vertical-align: top;
             text-align: left;
@@ -202,21 +233,24 @@ h2{
     }
 }
 
-.jumbotron{
+.jumbotron {
     margin-bottom: 8rem;
     background-color: var(--db-jumbotron);
 }
 
-.jt-left{
+.jt-left {
     padding-bottom: 0.8rem;
     padding-right: 0;
-    p{
+
+    p {
         margin-bottom: 2rem;
     }
-    button{
+
+    button {
         margin-bottom: 2rem;
     }
-    i{
+
+    i {
         font-size: 3rem;
     }
 }
@@ -224,92 +258,120 @@ h2{
 /* #endregion jumbotron  */
 
 /* #region subscription  */
-#subscription{
+#subscription {
     border-top: 1px solid var(--db-border);
-    h2{
+
+    h2 {
         padding: 2rem 0 2rem 0;
     }
-    .radio-box{
+
+    .radio-box {
         padding: 1rem 0 1rem 0;
-        label{
+
+        label {
             margin-right: 1rem;
         }
     }
+
     margin-bottom: 5rem;
 }
-.sub-row{
+
+.sub-row {
     justify-content: space-between;
     margin-bottom: 2rem;
-    .col-3{
+
+    .col-3 {
         padding: 1rem;
     }
 }
 
-.sub-name{
+.sub-name {
     text-align: center;
     border: 1px solid var(--db-border);
 }
 
-.sub-content{
-    padding: 0.5rem;
+.sub-content {
+    padding: 2rem 1rem;
     border: 1px solid var(--db-border);
+
+    h3,
+    h4 {
+        margin-bottom: 1rem;
+    }
+
+    .price {
+        margin-bottom: 2rem;
+    }
+
+    .service {
+        margin-bottom: 1rem;
+        button {
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 /* #endregion subscription  */
 
 /* #region partner  */
-.pt-content{
+.pt-content {
     padding: 2rem;
 }
-#partner{
+
+#partner {
     margin-bottom: 5rem;
 }
 
 /* #endregion partner  */
 
 /* #region cards  */
-.cd-container > h2{
+.cd-container>h2 {
     margin-bottom: 3rem;
 }
 
-#cards{
+#cards {
     margin-bottom: 5rem;
 }
 
 /* #endregion cards  */
 
 /* #region findmore  */
-#find-more{
-    h1{
+#find-more {
+    h1 {
         margin-bottom: 3rem;
     }
+
     margin-bottom: 5rem;
 }
 
 /* #endregion findmore  */
 
 /* #region footer  */
-.ft-container{
+.ft-container {
     justify-content: space-between;
     padding-top: 3rem;
-    dt, dd{
+
+    dt,
+    dd {
         margin-bottom: 1rem;
     }
-    dl{
+
+    dl {
         min-width: 20%;
     }
+
     margin-bottom: 3rem;
 }
 
-#site-footer{
-    hr{
+#site-footer {
+    hr {
         border: 1px solid black;
         width: 8%;
         margin-bottom: 2rem;
     }
 }
 
-.low-footer{
+.low-footer {
     margin-bottom: 2rem;
 }
 
