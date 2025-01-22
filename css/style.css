@@ -276,15 +276,6 @@ h2 {
     margin-bottom: 5rem;
 }
 
-.sub-row {
-    justify-content: space-between;
-    margin-bottom: 2rem;
-
-    .col-3 {
-        padding: 1rem;
-    }
-}
-
 .sub-name {
     text-align: center;
     border: 1px solid var(--db-border);
@@ -304,11 +295,34 @@ h2 {
     }
 
     .service {
+        margin-bottom: 3rem;
+       p{
         margin-bottom: 1rem;
+       }
+    }
+    .cta{
+        margin-bottom: 2rem;
         button {
+            margin-bottom: 2rem;
+            width: 100%;
+        }
+        a{
+            text-decoration: underline;
+            color: var(--db-cta);
+        }
+    }
+    hr{
+        margin-bottom: 2rem;
+    }
+    .specific{
+        p{
             margin-bottom: 1rem;
         }
     }
+}
+
+.sub-card{
+    height: 100%;
 }
 
 /* #endregion subscription  */
