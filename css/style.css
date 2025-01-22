@@ -224,3 +224,30 @@
     }
     margin-bottom: 5rem;
 }
+
+/* #endregion findmore  */
+
+/* #region footer  */
+.ft-container{
+    justify-content: space-between;
+    padding-top: 3rem;
+    dt, dd{
+        margin-bottom: 1rem;
+    }
+    dl{
+        min-width: 20%;
+    }
+    margin-bottom: 3rem;
+}
+
+#site-footer{
+    hr{
+        border: 1px solid black;
+        width: 8%;
+        margin-bottom: 2rem;
+    }
+}
+
+.low-footer{
+    margin-bottom: 2rem;
+}
