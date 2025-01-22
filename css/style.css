@@ -135,4 +135,7 @@
 .jt-container{
     flex-direction: column;
     padding: 10rem 5rem 0 5rem;
+    .jt-right{
+        margin-bottom: -5rem;
+    }
 }
