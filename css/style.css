@@ -100,6 +100,14 @@
             min-width: 70%;
         }
     }
+    .sub-content{
+        min-height: 40rem;
+    }
+    .bottom-sub-card{
+        .sub-content{
+            min-height: 15rem;
+        }
+    }
 }
 
 /* #endregion utility */
@@ -139,3 +147,40 @@
         margin-bottom: -5rem;
     }
 }
+
+.jumbotron{
+    margin-bottom: 8rem;
+}
+
+/* #endregion jumbotron  */
+
+#subscription{
+    h2{
+        padding: 2rem 0 2rem 0;
+    }
+    .radio-box{
+        padding: 1rem 0 1rem 0;
+        label{
+            margin-right: 1rem;
+        }
+    }
+    
+}
+.sub-row{
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    .col-3{
+        padding: 1rem;
+    }
+}
+
+.sub-name{
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.sub-content{
+    padding: 0.5rem;
+    border: 1px solid grey;
+}
+
