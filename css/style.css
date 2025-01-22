@@ -23,6 +23,11 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -2rem;
+}
+
+[class^="col"]{
+    padding: 2rem;
 }
 
 .col{
@@ -93,12 +98,6 @@
         .jt-left, .jt-right{
             min-height: 20rem;
         }
-        .jt-left{
-            min-width: 30%;
-        }
-        .jt-right{
-            min-width: 70%;
-        }
     }
     .sub-content{
         min-height: 40rem;
@@ -109,14 +108,13 @@
         }
     }
     #partner{
-        .col-2{
+        .pt-img, .pt-contet{
             min-height: 30rem;
         }
-        .pt-img{
-            min-width: 60%;
-        }
-        .pt-content{
-            min-width: 40%;
+    }
+    .card{
+        img{
+            min-height: 10rem;
         }
     }
 }
@@ -209,3 +207,20 @@
 /* #endregion partner  */
 
 /* #region cards  */
+.cd-container > h2{
+    margin-bottom: 3rem;
+}
+
+#cards{
+    margin-bottom: 5rem;
+}
+
+/* #endregion cards  */
+
+/* #region findmore  */
+#find-more{
+    h1{
+        margin-bottom: 3rem;
+    }
+    margin-bottom: 5rem;
+}
