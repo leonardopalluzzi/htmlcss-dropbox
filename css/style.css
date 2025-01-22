@@ -13,6 +13,7 @@
     --db-jumbotron: #b4d0e6;
     --db-light: white;
     --db-dark: black;
+    --db-border: lightgrey;
 }
 
 .big-section-size{
@@ -47,6 +48,10 @@ a{
 
 h1{
     font-size: 5rem;
+}
+
+h2{
+    font-size: 2.5rem;
 }
 
 /* #region col  */
@@ -160,7 +165,7 @@ h1{
     width: 100%;
     background-color: var(--db-light);
     a{
-        padding: 1rem 0.79rem;
+        padding: 1rem 0.8rem;
         &:hover{
             border-bottom: 4px solid black;
             border-radius: 0.3rem;
@@ -169,14 +174,11 @@ h1{
     a, img{
         margin-right: 3rem;
     }
-
-    *{
-        height: 100%;
-    }
 }
 
 .menu-left, .menu-right{
     padding: 1rem 0.79rem;
+    line-height: 25px;
 }
 
 .logo{
@@ -223,6 +225,7 @@ h1{
 
 /* #region subscription  */
 #subscription{
+    border-top: 1px solid var(--db-jumbotron);
     h2{
         padding: 2rem 0 2rem 0;
     }
@@ -244,12 +247,12 @@ h1{
 
 .sub-name{
     text-align: center;
-    border: 1px solid grey;
+    border: 1px solid var(--db-border);
 }
 
 .sub-content{
     padding: 0.5rem;
-    border: 1px solid grey;
+    border: 1px solid var(--db-border);
 }
 
 /* #endregion subscription  */
