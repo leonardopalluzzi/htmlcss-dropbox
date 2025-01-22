@@ -125,6 +125,9 @@
 #site-header{
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
     a{
         padding: 1rem 0.79rem;
     }
@@ -159,6 +162,7 @@
 
 .jumbotron{
     margin-bottom: 8rem;
+    padding-top: 3rem;
 }
 
 /* #endregion jumbotron  */
@@ -251,3 +255,5 @@
 .low-footer{
     margin-bottom: 2rem;
 }
+
+/* #endregion footer  */
