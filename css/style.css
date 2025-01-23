@@ -9,7 +9,7 @@
 
 :root {
     --db-cta: #0061fe;
-    --db-hover-btn: #3b86ff;
+    --db-hover-btn: #5495fd;
     --db-jumbotron: #b4d0e6;
     --db-light: white;
     --db-dark: black;
@@ -208,18 +208,15 @@ h2 {
     }
 
     a {
-        padding: 1rem 0.8rem;
-
         &:hover {
-            border-bottom: 4px solid black;
-            border-radius: 0.3rem;
+            border-bottom: 1px solid black;
         }
     }
 
     a,
     img {
         margin-right: 3rem;
-        padding: 1rem;
+        padding: 1rem ;
     }
     .menu-left, .menu-right{
         padding: 0 1rem;
@@ -317,6 +314,16 @@ h2 {
         p {
             margin-bottom: 1rem;
         }
+        p:nth-child(2)::before{
+            content: '\f07b';
+            font-family: FontAwesome;
+            margin-right: 0.5rem;
+        }
+        p:nth-child(3)::before{
+            content: '\f1e0';
+            font-family: FontAwesome;
+            margin-right: 0.5rem;
+        }
     }
 
     .cta {
@@ -342,6 +349,12 @@ h2 {
     .specific {
         p {
             margin-bottom: 1rem;
+        }
+        p::before{
+            content: '\f00c';
+            font-family: FontAwesome;
+            margin-right: 0.5rem;
+            color: var(--db-cta);
         }
     }
 }
@@ -408,9 +421,19 @@ h2 {
 #find-more {
     h1 {
         margin-bottom: 3rem;
+        font-size: 3rem;
     }
-
-    margin-bottom: 5rem;
+    a{
+        text-decoration: underline;
+        color: var(--db-cta);
+        transition-duration: 0.5s;
+        &:hover{
+            color: var(--db-dark);
+            font-size: 1.2rem;
+        }
+    }
+    margin-top: 12rem;
+    margin-bottom: 12rem;
 }
 
 /* #endregion findmore  */
