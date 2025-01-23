@@ -386,6 +386,18 @@ h2 {
     margin-bottom: 3rem;
 }
 
+.card-img{
+    img{
+       max-width: 100%; 
+    }  
+}
+
+.card-content{
+    h3{
+        margin-bottom: 2rem;
+    }
+}
+
 #cards {
     margin-bottom: 5rem;
 }
