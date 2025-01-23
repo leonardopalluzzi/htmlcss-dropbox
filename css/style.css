@@ -182,12 +182,17 @@ h2 {
 
 /* #region header  */
 #site-header {
-    justify-content: space-between;
-    align-items: center;
+
     position: fixed;
     z-index: 10;
     width: 100%;
     background-color: var(--db-light);
+
+    nav {
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
     a {
         padding: 1rem 0.8rem;
@@ -201,13 +206,11 @@ h2 {
     a,
     img {
         margin-right: 3rem;
+        padding: 1rem;
     }
-}
-
-.menu-left,
-.menu-right {
-    padding: 1rem 0.79rem;
-    line-height: 25px;
+    .menu-left, .menu-right{
+        padding: 0 1rem;
+    }
 }
 
 .logo {
@@ -297,37 +300,44 @@ h2 {
 
     .service {
         margin-bottom: 3rem;
-       p{
-        margin-bottom: 1rem;
-       }
+
+        p {
+            margin-bottom: 1rem;
+        }
     }
-    .cta{
+
+    .cta {
         margin-bottom: 2rem;
+
         button {
             margin-bottom: 2rem;
             width: 100%;
         }
-        a{
+
+        a {
             text-decoration: underline;
             color: var(--db-cta);
         }
     }
-    hr{
+
+    hr {
         margin-bottom: 2rem;
         width: 20%;
         border: 1px solid var(--db-border);
     }
-    .specific{
-        p{
+
+    .specific {
+        p {
             margin-bottom: 1rem;
         }
     }
 }
 
-.lower-card{
+.lower-card {
     padding: 0;
     padding-right: 2rem;
-    p{
+
+    p {
         margin-top: 3rem;
     }
 }
