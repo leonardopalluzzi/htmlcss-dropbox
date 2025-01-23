@@ -309,7 +309,6 @@ h2 {
 .jt-container {
     flex-direction: column;
     padding: 10rem 5rem 0 5rem;
-
     .jt-right {
         padding-left: 0;
 
@@ -347,8 +346,7 @@ h2 {
 /* #endregion jumbotron  */
 
 /* #region subscription  */
-#subscription {
-    border-top: 1px solid var(--db-border);
+#subscription {  
 
     h2 {
         padding: 3rem 0;
