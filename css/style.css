@@ -47,6 +47,19 @@ a {
     }
 }
 
+.btn-white {
+    background-color: var(--db-light);
+    padding: 0.6rem 0.8rem;
+    color: var(--db-dark);
+    border: 1px solid var(--db-dark);
+    transition-duration: 0.5s;
+
+    &:hover {
+        background-color: var(--db-dark);
+        color: var(--db-light);
+    }
+}
+
 h1 {
     font-size: 5rem;
 }
@@ -59,11 +72,11 @@ h2 {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -2rem;
+    margin: 0 -1rem;
 }
 
 [class^="col"] {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .col {
@@ -346,7 +359,20 @@ h2 {
 
 /* #region partner  */
 .pt-content {
-    padding: 2rem;
+    padding: 4rem 2rem;
+    h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .btn-white{
+        margin-top: 2rem;
+    }
+}
+
+.pt-img{
+    img{
+        max-width: 100%;
+    }
 }
 
 #partner {
