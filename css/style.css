@@ -209,6 +209,7 @@ h2 {
     }
 
     a {
+        padding: 1rem 0;
         &:hover {
             border-bottom: 1px solid black;
         }
@@ -216,8 +217,7 @@ h2 {
 
     a,
     img {
-        margin-right: 3rem;
-        padding: 1rem ;
+        margin-right: 3rem; 
     }
     .menu-left, .menu-right{
         padding: 0 1rem;
